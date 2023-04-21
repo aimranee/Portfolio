@@ -1,7 +1,7 @@
 import React from "react";
-import PaperCard from "./PaperCard";
+import Cards from "./Cards";
 
-const papers = [
+const infos = [
   {
     Title: "DevOps, Cloud, and Agile Foundations",
     Year: "2023",
@@ -27,7 +27,7 @@ const papers = [
 function Certifications() {
   return (
     <section className="section">
-      <PaperCard data={papers} />
+      <Cards data={infos} />
     </section>
   );
 }

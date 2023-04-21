@@ -3,7 +3,7 @@ import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 const primaryTextColor = "text-primary";
 
-const PaperCard = ({ data }) => {
+const Cards = ({ data }) => {
   return (
     <div className="paper-container">
       {data.map((paper, index) => (
@@ -37,4 +37,4 @@ const PaperCard = ({ data }) => {
   );
 };
 
-export default PaperCard;
+export default Cards;
